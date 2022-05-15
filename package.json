@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "main": "dist/index.js",
   "scripts": {
+    "build": "tsc",
     "test": "uvu -r ts-node/register/transpile-only src .*\\.test\\.ts"
   },
   "devDependencies": {
