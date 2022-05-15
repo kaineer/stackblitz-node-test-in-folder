@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc -p ./config/tsconfig.json",
     "docs": "typedoc --options ./config/typedoc.json --tsconfig ./config/tsconfig.json",
