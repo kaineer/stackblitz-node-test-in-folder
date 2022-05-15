@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p ./config/tsconfig.json",
     "docs": "typedoc",
     "test": "uvu -r ts-node/register/transpile-only src .*\\.test\\.ts"
   },
