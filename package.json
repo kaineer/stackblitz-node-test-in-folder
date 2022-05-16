@@ -6,12 +6,15 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc -p ./config/tsconfig.json",
+    "clean": "rm -rf docs dist",
     "docs": "typedoc --options ./config/typedoc.json --tsconfig ./config/tsconfig.json",
     "test": "uvu -r ts-node/register/transpile-only src .*\\.test\\.ts"
   },
   "devDependencies": {
     "ts-node": "10.7.0",
     "typedoc": "0.22.15",
+    "typedoc-just-the-docs-theme": "0.0.1",
+    "typedoc-plugin-markdown": "3.12.1",
     "typescript": "4.6.4",
     "uvu": "0.5.3"
   }

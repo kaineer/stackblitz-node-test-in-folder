@@ -3,5 +3,6 @@
     "../src/index.ts"
   ],
   "out": "../docs",
-  "readme": "../README.md"
+  "readme": "../README.md",
+  "theme": "just-the-docs"
 }
